@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PETSHOP</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/nivo-slider.css" />
+	<link href="favicon.jpg" rel="shortcut icon" />	
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
+</head>
+<body>
+<div class="container">
+		<div id="header" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="col-xs-2 col-sm-2">
+            	<img id="logo" src="logo.png"/>
+            </div>
+            <div class="col-xs-10 col-sm-8">
+                <p>
+                    <a href="#"><img src="images/twitter.png" class="img-responsive social"></a>
+                    <a href="#"><img src="images/facebook.png" class="img-responsive social"></a>
+                    <a href="#"><img src="images/linkedin.png" class="img-responsive social"></a>
+                    <a href="#"><img src="images/youtube.png" class="img-responsive social"></a>
+                    </p>
+            </div>
+		</div>
+		<div id="main" class="col-xs-12 col-sm-12">
+			<div class="navbar-inverse">
+                    <div class="navbar-header">
+                    <button class="navbar-toggle"  data-toggle="collapse" data-target="#menu">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    </div>
+                    <div class="navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href=" index.html">Home</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="service.php">Pet service</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
+                            <li><a href="book.php">Contact Us</a></li>
+                        </ul>
+                    </div>
+              </div>
+			<div id="main-content" class="col-xs-12 col-sm-12 col-md-12 slider-wrapper theme-default">
+				
+				<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+					<div id="welcome" class="col-xs-12 col-sm-12 col-md-12">
+						<h3 style="color:rgb(98, 98, 218)">Gallery</h3>
+						<div id="g1" class="col-xs-12 col-sm-3 col-md-3">
+							<a href="#" id="gd1"><img src="images/Bichon Frise/1.jpg" class="img-responsive"/></a><br />
+							<b>Bichon Frise</b>
+						</div>
+						<div id="g2" class="col-xs-12 col-sm-3 col-md-3">
+							<a href="#" id="gd2"><img src="images/Great Groomers/g1.jpg" class="img-responsive"/></a><br />
+							<b>Great Groomers</b>
+						</div>
+						<div id="g3" class="col-xs-12 col-sm-3 col-md-3">
+							<a href="#" id="gd3"><img src="images/Maltese/m1.jpg" class="img-responsive" /></a><br />
+							<b>Maltese</b>
+						</div>
+						<div id="g4" class="col-xs-12 col-sm-3 col-md-3">
+							<a href="#" id="gd4"><img src="images/Poodles/p1.jpg" class="img-responsive"/></a><br />
+							<b>Poodles</b>
+						</div>
+						<div id="g5" class="col-xs-12 col-sm-3 col-md-3">
+							<a href="#" id="gd5"><img src="images/Schnauzers/s1.jpg" class="img-responsive" /></a><br />
+							<b>Schnauzers</b>
+						</div>
+						<div id="g6" class="col-xs-12 col-sm-3 col-md-3">
+							<a href="#" id="gd6"><img src="images/Tibetan Mastiffs/t1.jpg" class="img-responsive"/></a><br />
+							<b>Tibetan Mastiffs</b>
+						</div>
+						<div id="g7" class="col-xs-12 col-sm-3 col-md-3">
+							<a href="#" id="gd7"><img src="images/Cats/1.jpg" class="img-responsive"/></a><br />
+							<b>Cats</b>
+						</div>
+						<div id="g8" class="col-xs-12 col-sm-3 col-md-3">
+							<a href="#" id="gd8"><img src="images/Other Breeds/o1.jpg" class="img-responsive"/></a><br />
+							<b>Other Breeds</b>
+						</div>
+						</div>
+						<div id="ga1" class="ga col-xs-12 col-sm-12 col-md-12">
+						<h3 style="color:rgb(98, 98, 218)">Bichon Frise</h3>
+						<span id="gal1"><img src="images/back.png" width="50" height="50"/></span><br />
+							<a href="#" id="Frise"><img src="images/Bichon Frise/1.jpg" class="img-responsive" /></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/2.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/3.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/4.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/5.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/6.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/7.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/8.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/9.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/10.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/11.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/12.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Bichon Frise/13.jpg" class="img-responsive"/></a>
+						</div>
+						<div id="ga2" class="ga col-xs-12 col-sm-12 col-md-12">
+							<h3 style="color:rgb(98, 98, 218)">Great Groomers</h3>
+							<span id="gal2"><img src="images/back.png" width="50" height="50"/></span><br /><br />						
+							<a href="#" id="Frise"><img src="images/Great Groomers/g1.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Great Groomers/g2.jpg" class="img-responsive"/></a>
+						</div>
+						<div id="ga3" class="ga col-xs-12 col-sm-12 col-md-12">
+							<h3 style="color:rgb(98, 98, 218)">Maltese</h3>
+							<span id="gal3"><img src="images/back.png" width="50" height="50"/></span><br /><br />
+							<a href="#" id="Frise"><img src="images/Maltese/m1.jpg" class="img-responsive"/></a>
+						</div>
+						<div id="ga4" class="ga col-xs-12 col-sm-12 col-md-12">
+							<h3 style="color:rgb(98, 98, 218)">Poodles</h3>
+							<span id="gal4"><img src="images/back.png" width="50" height="50"/></span><br /><br />
+							<a href="#" id="Frise"><img src="images/Poodles/p1.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p2.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p3.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p4.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p5.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p6.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p7.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p8.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p9.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p10.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p11.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p12.jpg" class="img-responsive" /></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p13.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p14.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p15.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p16.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p17.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p18.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p19.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p20.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p21.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p22.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p23.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p24.jpg" class="img-responsive" /></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p25.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p26.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p27.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p28.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p29.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p30.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p31.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p32.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p33.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p34.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p35.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p36.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p37.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p38.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p39.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p40.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p41.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p42.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p43.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p45.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Poodles/p46.jpg" class="img-responsive"/></a>
+						</div>
+						<div id="ga5" class="ga col-xs-12 col-sm-12 col-md-12">
+							<h3 style="color:rgb(98, 98, 218)">Schnauzers</h3>
+							<span id="gal5"><img src="images/back.png" width="50" height="50"/></span><br /><br />
+							<a href="#" id="Frise"><img src="images/Schnauzers/s1.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Schnauzers/s2.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Schnauzers/s3.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Schnauzers/s4.jpg" class="img-responsive"/></a>
+						</div>
+						<div id="ga6" class="ga col-xs-12 col-sm-12 col-md-12">
+							<h3 style="color:rgb(98, 98, 218)">Tibetan Mastiffs</h3>
+							<span id="gal6"><img src="images/back.png" width="50" height="50"/></span><br /><br />
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t1.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t2.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t3.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t4.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t5.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t6.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t7.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t8.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t9.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t10.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t11.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t12.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t13.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t14.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t15.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t16.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t17.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t18.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t19.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Tibetan Mastiffs/t20.jpg" class="img-responsive"/></a>
+						</div>
+						<div id="ga7" class="ga col-xs-12 col-sm-12 col-md-12">
+							<h3 style="color:rgb(98, 98, 218)">Cats</h3>
+							<span id="gal7"><img src="images/back.png" width="50" height="50"/></span><br /><br />
+							<a href="#" id="Frise"><img src="images/Cats/1.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Cats/2.jpg" class="img-responsive"/></a>
+						</div>
+						<div id="ga8" class="ga col-xs-12 col-sm-12 col-md-12">
+							<h3 style="color:rgb(98, 98, 218)">Other Breeds</h3>
+							<span id="gal8"><img src="images/back.png" width="50" height="50"/></span><br /><br />
+							<a href="#" id="Frise"><img src="images/Other Breeds/o1.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Other Breeds/o2.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Other Breeds/o3.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Other Breeds/o4.jpg" class="img-responsive"/></a>
+							<a href="#" id="Frise"><img src="images/Other Breeds/o5.jpg" class="img-responsive"/></a>
+						</div>
+			</div>			
+		</div>       
+</div>
+<div id="footer">
+            <p style="text-align:center;color:white">Copyright&copy; flipandcutllc.com</p>
+</div>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+<script type="text/javascript">
+   $(window).load(function() {
+       $('#slider').nivoSlider();
+   });
+   $('.myModal').on('shown.bs.modal', function () {
+    $('img').focus()
+  })
+</script>
+
+</body>
+</html>
